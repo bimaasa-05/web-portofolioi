@@ -1,0 +1,63 @@
+/* Design tokens untuk Space Portfolio.
+   Merujuk pada bagian 4 --- Design System dan Identitas Visual pada prd.md. */
+
+:root {
+  /* Warna dasar (palet dari prd.md bagian 4.1) */
+  --color-bg: #050816;
+  --color-bg-secondary: #080d20;
+  --color-surface: #0b1228;
+  --color-surface-alt: #101a35;
+  --color-primary: #3b82f6;
+  --color-electric: #38bdf8;
+  --color-nebula: #8b5cf6;
+  --color-text: #f8fafc;
+  --color-text-secondary: #a7b4cc;
+  --color-border: #243453;
+  --color-success: #34d399;
+  --color-error: #f87171;
+
+  /* Varian warna untuk state hover, fokus, dan active. */
+  --color-primary-hover: #60a5fa;
+  --color-primary-active: #2563eb;
+  --color-on-primary: #ffffff;
+  --color-surface-hover: #16223f;
+
+  /* Tipografi */
+  --font-sans:
+    'Inter', 'Plus Jakarta Sans', system-ui, -apple-system, 'Segoe UI', Roboto,
+    Helvetica, Arial, sans-serif;
+  --font-mono:
+    ui-monospace, 'SF Mono', 'Cascadia Code', Consolas, 'Liberation Mono',
+    monospace;
+
+  /* Radius dan bayangan */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --shadow-sm:
+    0 2px 8px rgba(3, 7, 18, 0.45), 0 1px 2px rgba(3, 7, 18, 0.3);
+  --shadow-md:
+    0 12px 30px rgba(3, 7, 18, 0.45), 0 4px 8px rgba(3, 7, 18, 0.25);
+  --shadow-lg:
+    0 28px 64px rgba(3, 10, 30, 0.55), 0 10px 20px rgba(3, 7, 18, 0.35);
+
+  /* Spacing */
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2.5rem;
+  --space-2xl: 4rem;
+
+  /* Batas lebar konten dan tinggi navbar */
+  --container-max: 1200px;
+  --navbar-height: 72px;
+
+  /* Transisi ringan */
+  --transition-fast: 160ms ease;
+  --transition-base: 240ms ease;
+
+  /* Z-index */
+  --z-nav: 100;
+  --z-modal: 200;
+}

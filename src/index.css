@@ -1,0 +1,3 @@
+/* Entry point global. Import seluruh token dan global style di sini. */
+@import './styles/variables.css';
+@import './styles/global.css';

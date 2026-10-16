@@ -1,0 +1,99 @@
+/* Tentang Saya */
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-xl);
+  align-items: start;
+}
+
+.about-profile {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.about-avatar {
+  width: 168px;
+  height: 168px;
+  border-radius: 50%;
+  border: 2px solid var(--color-border);
+  object-fit: cover;
+}
+
+.about-name {
+  margin-top: var(--space-xs);
+}
+
+.about-role {
+  font-weight: 600;
+  color: var(--color-nebula);
+}
+
+.about-description {
+  color: var(--color-text-secondary);
+}
+
+.about-facts {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  margin-top: var(--space-md);
+  border-top: 1px solid var(--color-border);
+  padding-top: var(--space-md);
+}
+
+.about-fact {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.about-fact dt {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-electric);
+}
+
+.about-fact dd {
+  color: var(--color-text-secondary);
+}
+
+.about-skills {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.about-skills-title {
+  margin-bottom: var(--space-xs);
+}
+
+.about-skill-category {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  padding: var(--space-md);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+}
+
+.about-skill-category h4 {
+  color: var(--color-text-secondary);
+}
+
+.about-skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+  list-style: none;
+}
+
+@media (max-width: 900px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+}
